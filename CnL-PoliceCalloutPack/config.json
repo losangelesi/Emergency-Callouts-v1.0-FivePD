@@ -1,0 +1,78 @@
+//1. lspd, 2. bcso, 3. SAHP North 5. SAHP South, 6. SAFD north, 7 SAFD South
+{
+  "Assault": {
+    "IgnoreDistance": false, // If set to true, the callout can spawn outside of the department area
+    "MinTimeout": 10, // The minimum timeout before this callout can be instantiated again (0 = immediately)
+    "Probability": 1, // Moved it here instead of being hardcoded by the callout developer
+    "Department": [ 1, 2, 5 ] // Restricts the callout only for these departments (identified by their ID).
+  },
+
+  "UnconciousPerson": {
+    "IgnoreDistance": false,
+    "MinTimeout": 5,
+    "Probability": 1,
+    "Department": [ 1, 5, 7 ]
+  },
+
+  "SuspiciousPerson": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 2,
+    "Department": [ 1, 5 ]
+  },
+
+  "Stalker": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 2,
+    "Department": [ 1, 5 ]
+  },
+  "_911_Hangup": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 3,
+    "Department": [ 1, 5, 7 ]
+  },
+  "Auto_vs_Ped": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 3,
+    "Department": [ 1, 2, 3, 5, 6, 7 ]
+  },
+  "Brandishing_Weapon": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 2, 3, 5 ]
+  },
+  "Domestic_Arguement": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 2, 3, 5 ]
+  },
+  "Illegally_Parked_Car": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 2, 3, 5 ]
+  },
+  "PublicIntox": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 5, 7 ]
+  },
+  "Robbery": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 5 ]
+  },
+  "Drunk_bicyclist": {
+    "IgnoreDistance": false,
+    "MinTimeout": 0,
+    "Probability": 1,
+    "Department": [ 1, 2, 3, 5 ]
+  }
+}
