@@ -5,4 +5,4 @@ a list of 750+ vector3 location list, vehicle and weapon list are now added for 
 
 Unfortunately the last release of FivePD broke a lot of functionality within APIs including text for conversations. I can make updates to the pack if it gains enough interest again, lmk!
 
-Support level : meh/10 in 2026 I can still work on it, I just wanted to release it
+Support level : 0/10 in 2026
